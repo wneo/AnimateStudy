@@ -41,6 +41,7 @@
 	[self.xcodeImageView setAlpha:0.0f];
 	self.xcodeImageView.transform = CGAffineTransformMakeRotation((90.0f * M_PI) / 180.0f);
 	[UIView commitAnimations];
+	NSLog(@"Down.");
 }
 
 @end
